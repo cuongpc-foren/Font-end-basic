@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+html{
+  width: 1430px;
+  height: 90px;
+  background-color: #f5f5f5;
+}
+
+body{
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.Header{
+  background-color: #f5f5f5;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  position: fixed;
+}
+
+.Header img{
+  width: 147px;
+  height: 68px;
+  margin-top: 1px;
+  margin-left: 100px;
+}
+
+.Header #list{
+  margin: 25px 0px 20px 300px;
+}
+
+.Header a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #333333;
+  padding: 20px;
+}
+
+.Header #list a:hover{
+  font-weight: bold;
+  color: #1d3752;
+  border-color: #efefef;
+  background-color: #efefef;
+}
+
+.Header .blueButton .button1{
+  background-color: #1d3752;
+}
+
+.Header .blueButton{
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.Header .blueButton .button1{
+  width: 200px;
+  height: 50px;
+  border: 1px solid gainsboro;
+
+}
+
+.Header .blueButton .button1:hover{
+  background-color: #2f4f6e;
+  transition: 0.75s;
+}
+
+.Header .blueButton #iconPhone{
+  width: 20px;
+  height: 20px;
+  padding: none;
+  margin: 0px 0px 0px 0px;
+}
+
+.Header .blueButton a{
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+.Header{
+  
+}
+
+.Body{
+
+}
+
+.Footer{
+
+}
